@@ -3,11 +3,11 @@
   <title>Cacaview&#39;s blog.</title>
   
   <subtitle>一个苦逼高中生的博客</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://cacaview.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://cacaview.github.io/"/>
   <updated>2021-10-31T07:58:41.571Z</updated>
-  <id>http://example.com/</id>
+  <id>https://cacaview.github.io/</id>
   
   <author>
     <name>cacaview</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>集合的关系</title>
-    <link href="http://example.com/2021/10/31/shuxue-1/"/>
-    <id>http://example.com/2021/10/31/shuxue-1/</id>
+    <link href="https://cacaview.github.io/2021/10/31/shuxue-1/"/>
+    <id>https://cacaview.github.io/2021/10/31/shuxue-1/</id>
     <published>2021-10-31T13:06:18.000Z</published>
     <updated>2021-10-31T07:58:41.571Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>数学的集合概念</title>
-    <link href="http://example.com/2021/10/31/shuxue/"/>
-    <id>http://example.com/2021/10/31/shuxue/</id>
+    <link href="https://cacaview.github.io/2021/10/31/shuxue/"/>
+    <id>https://cacaview.github.io/2021/10/31/shuxue/</id>
     <published>2021-10-31T00:49:49.000Z</published>
     <updated>2021-10-30T16:55:02.892Z</updated>
     
@@ -54,7 +54,7 @@
     
     
     
-    <category term="数学" scheme="http://example.com/categories/%E6%95%B0%E5%AD%A6/"/>
+    <category term="数学" scheme="https://cacaview.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
     
     
   </entry>
