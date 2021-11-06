@@ -20,17 +20,24 @@
     var CONFIG = {"hostname":"cacaview.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="文章分类">
-<meta property="og:url" content="https://cacaview.github.io/categories/index.html">
+  <meta name="description" content="匀变速直线运动的位移与时间的关系笔记梯形面积的意义在做了小车速度随时间变化的规律的实验后，我们通过研究实验数据和纸带上的点得到像这样的v-t图：   可以看出，匀变速直线的运动特点为沿着一条直线。且加速度不变的运动 公式：$$V&#x3D;V_0+at$$">
+<meta property="og:type" content="article">
+<meta property="og:title" content="匀变速运动位移">
+<meta property="og:url" content="https://cacaview.github.io/2021/11/06/wuli/index.html">
 <meta property="og:site_name" content="Cacaview&#39;s blog.">
+<meta property="og:description" content="匀变速直线运动的位移与时间的关系笔记梯形面积的意义在做了小车速度随时间变化的规律的实验后，我们通过研究实验数据和纸带上的点得到像这样的v-t图：   可以看出，匀变速直线的运动特点为沿着一条直线。且加速度不变的运动 公式：$$V&#x3D;V_0+at$$">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-11-06T17:20:05.000Z">
-<meta property="article:modified_time" content="2021-11-06T09:21:43.252Z">
+<meta property="og:image" content="https://cacaview.github.io/2021/11/06/wuli/匀变速vt图.png">
+<meta property="og:image" content="https://cacaview.github.io/2021/11/06/wuli/梯形面积代表这什么.jpg">
+<meta property="og:image" content="https://cacaview.github.io/2021/11/06/wuli/匀变速vt图1.png">
+<meta property="article:published_time" content="2021-11-06T13:06:18.000Z">
+<meta property="article:modified_time" content="2021-11-06T15:18:03.488Z">
 <meta property="article:author" content="cacaview">
+<meta property="article:tag" content="物理">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cacaview.github.io/2021/11/06/wuli/匀变速vt图.png">
 
-<link rel="canonical" href="https://cacaview.github.io/categories/">
+<link rel="canonical" href="https://cacaview.github.io/2021/11/06/wuli/">
 
 
 <script id="page-configurations">
@@ -38,13 +45,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>文章分类 | Cacaview's blog.
-</title>
+  <title>匀变速运动位移 | Cacaview's blog.</title>
   
 
 
@@ -158,51 +164,124 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cacaview.github.io/2021/11/06/wuli/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="cacaview">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cacaview's blog.">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          匀变速运动位移
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">文章分类
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2021-11-06 13:06:18 / 修改时间：15:18:03" itemprop="dateCreated datePublished" datetime="2021-11-06T13:06:18Z">2021-11-06</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/11/06/wuli/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/11/06/wuli/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
   
 
-</div>
+        </div>
+      </header>
 
-</header>
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-      
-      
-      <div class="post-body">
-          <div class="category-all-page">
-            <div class="category-all-title">
-              目前共计 1 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a><span class="category-list-count">3</span></li></ul>
-            </div>
-          </div>
-        
-      </div>
-      
-      
-      
+        <h1 id="匀变速直线运动的位移与时间的关系笔记"><a href="#匀变速直线运动的位移与时间的关系笔记" class="headerlink" title="匀变速直线运动的位移与时间的关系笔记"></a>匀变速直线运动的位移与时间的关系笔记</h1><h2 id="梯形面积的意义"><a href="#梯形面积的意义" class="headerlink" title="梯形面积的意义"></a>梯形面积的意义</h2><p>在做了小车速度随时间变化的规律的实验后，我们通过研究实验数据和纸带上的点得到像这样的v-t图：</p>
+<img src="/2021/11/06/wuli/匀变速vt图.png" style="zoom: 50%;">
+
+<p>可以看出，匀变速直线的运动特点为沿着一条直线。且加速度不变的运动</p>
+<p>公式：<br>$$V=V_0+at$$</p>
+<span id="more"></span>
+<p>那问题就来了，匀变速直线运动的位移如何进行计算呢？<br>我们都知道，在匀变速直线运动时，图像中的矩形面积为物体的位移。那么，匀变速中的梯形面积是否为它的位移？</p>
+<p>答案是肯定的，我们可以把运动过程分成n级，n越大，误差就越小，n个矩形面积之和与真实总位移的误差越小</p>
+<img src="/2021/11/06/wuli/梯形面积代表这什么.jpg" style="zoom:150%;">
+
+<p>问题：求下列t-v图的位移</p>
+<img src="/2021/11/06/wuli/匀变速vt图1.png" style="zoom: 67%;">
+
+<p>由上，可得公式：<br>$$<br>x=\frac{V_0(v_0+at)}{2}\times t<br>$$<br>其实我们可以把<br>$$<br>V=V_0+at<br>$$<br>代入，然后整理：<br>$$<br>x=v_0+at+at^2<br>$$<br>由此可得：<br>$$<br>x=OC\times t+\frac{1}{2}at^2<br>$$</p>
+<h2 id="公式的实际应用感受"><a href="#公式的实际应用感受" class="headerlink" title="公式的实际应用感受"></a>公式的实际应用感受</h2><p>认真观察了书本41-42的题目我们可以得知，并总结出以下三个公式的使用方法。</p>
+<p><strong>无需位移x：</strong><br>$$<br>V=V_0+at<br>$$<br><strong>无需末速度V：</strong><br>$$<br>x=v_0+at+at^2<br>$$<br><strong>无需时间t：</strong><br>$$<br>V^2-V_0^2=2ax<br>$$<br>公式灵活应用，应该就可以顺利解决不同的问题。</p>
+<p>��同的问题。</p>
+<p>�的问题。</p>
+<p>��同的问题。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
     </div>
-    
 
     
     
     
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%89%A9%E7%90%86/" rel="tag"># 物理</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/10/31/shuxue-1/" rel="prev" title="集合的关系">
+      <i class="fa fa-chevron-left"></i> 集合的关系
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
 
 
           </div>
@@ -254,6 +333,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8C%80%E5%8F%98%E9%80%9F%E7%9B%B4%E7%BA%BF%E8%BF%90%E5%8A%A8%E7%9A%84%E4%BD%8D%E7%A7%BB%E4%B8%8E%E6%97%B6%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB%E7%AC%94%E8%AE%B0"><span class="nav-number">1.</span> <span class="nav-text">匀变速直线运动的位移与时间的关系笔记</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A2%AF%E5%BD%A2%E9%9D%A2%E7%A7%AF%E7%9A%84%E6%84%8F%E4%B9%89"><span class="nav-number">1.1.</span> <span class="nav-text">梯形面积的意义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AC%E5%BC%8F%E7%9A%84%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8%E6%84%9F%E5%8F%97"><span class="nav-number">1.2.</span> <span class="nav-text">公式的实际应用感受</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 

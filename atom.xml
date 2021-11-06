@@ -6,7 +6,7 @@
   <link href="https://cacaview.github.io/atom.xml" rel="self"/>
   
   <link href="https://cacaview.github.io/"/>
-  <updated>2021-11-06T09:28:21.740Z</updated>
+  <updated>2021-11-06T15:18:03.488Z</updated>
   <id>https://cacaview.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>匀变速运动位移</title>
+    <link href="https://cacaview.github.io/2021/11/06/wuli/"/>
+    <id>https://cacaview.github.io/2021/11/06/wuli/</id>
+    <published>2021-11-06T13:06:18.000Z</published>
+    <updated>2021-11-06T15:18:03.488Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="匀变速直线运动的位移与时间的关系笔记"><a href="#匀变速直线运动的位移与时间的关系笔记" class="headerlink" title="匀变速直线运动的位移与时间的关系笔记"></a>匀变速直线运动的位移与时间的关系笔记</h1><h2 id="梯形面积的意义"><a href="#梯形面积的意义" class="headerlink" title="梯形面积的意义"></a>梯形面积的意义</h2><p>在做了小车速度随时间变化的规律的实验后，我们通过研究实验数据和纸带上的点得到像这样的v-t图：</p><img src="/2021/11/06/wuli/匀变速vt图.png" style="zoom: 50%;"><p>可以看出，匀变速直线的运动特点为沿着一条直线。且加速度不变的运动</p><p>公式：<br>$$V=V_0+at$$</p><span id="more"></span><p>那问题就来了，匀变速直线运动的位移如何进行计算呢？<br>我们都知道，在匀变速直线运动时，图像中的矩形面积为物体的位移。那么，匀变速中的梯形面积是否为它的位移？</p><p>答案是肯定的，我们可以把运动过程分成n级，n越大，误差就越小，n个矩形面积之和与真实总位移的误差越小</p><img src="/2021/11/06/wuli/梯形面积代表这什么.jpg" style="zoom:150%;"><p>问题：求下列t-v图的位移</p><img src="/2021/11/06/wuli/匀变速vt图1.png" style="zoom: 67%;"><p>由上，可得公式：<br>$$<br>x=\frac{V_0(v_0+at)}{2}\times t<br>$$<br>其实我们可以把<br>$$<br>V=V_0+at<br>$$<br>代入，然后整理：<br>$$<br>x=v_0+at+at^2<br>$$<br>由此可得：<br>$$<br>x=OC\times t+\frac{1}{2}at^2<br>$$</p><h2 id="公式的实际应用感受"><a href="#公式的实际应用感受" class="headerlink" title="公式的实际应用感受"></a>公式的实际应用感受</h2><p>认真观察了书本41-42的题目我们可以得知，并总结出以下三个公式的使用方法。</p><p><strong>无需位移x：</strong><br>$$<br>V=V_0+at<br>$$<br><strong>无需末速度V：</strong><br>$$<br>x=v_0+at+at^2<br>$$<br><strong>无需时间t：</strong><br>$$<br>V^2-V_0^2=2ax<br>$$<br>公式灵活应用，应该就可以顺利解决不同的问题。</p><p>��同的问题。</p><p>�的问题。</p><p>��同的问题。</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;匀变速直线运动的位移与时间的关系笔记&quot;&gt;&lt;a href=&quot;#匀变速直线运动的位移与时间的关系笔记&quot; class=&quot;headerlink&quot; title=&quot;匀变速直线运动的位移与时间的关系笔记&quot;&gt;&lt;/a&gt;匀变速直线运动的位移与时间的关系笔记&lt;/h1&gt;&lt;h2 id=&quot;梯形面积的意义&quot;&gt;&lt;a href=&quot;#梯形面积的意义&quot; class=&quot;headerlink&quot; title=&quot;梯形面积的意义&quot;&gt;&lt;/a&gt;梯形面积的意义&lt;/h2&gt;&lt;p&gt;在做了小车速度随时间变化的规律的实验后，我们通过研究实验数据和纸带上的点得到像这样的v-t图：&lt;/p&gt;
+&lt;img src=&quot;/2021/11/06/wuli/匀变速vt图.png&quot; style=&quot;zoom: 50%;&quot;&gt;
+
+&lt;p&gt;可以看出，匀变速直线的运动特点为沿着一条直线。且加速度不变的运动&lt;/p&gt;
+&lt;p&gt;公式：&lt;br&gt;$$V=V_0+at$$&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="https://cacaview.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="物理" scheme="https://cacaview.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>集合的关系</title>
