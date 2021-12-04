@@ -20,17 +20,20 @@
     var CONFIG = {"hostname":"cacaview.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="文章标签">
-<meta property="og:url" content="https://cacaview.github.io/tags/index.html">
+  <meta name="description" content="在ubuntu系统中，常用的安装软件命令有apt和pkg。当然，还有一种更为简单的方式。那就是一个叫做tasksel的东西。 tasksel是一个易于使用的软件安装器，他可以快速的安装例如LAMP服务器，邮件服务器 ，DNS服务器之类的软件，有点像宝塔一键安装软件套装一样。 安装tasksel要安装tasksel，只需要一个指令：apt-get install tasksel -y安装Taskse">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用taskel在大便系统中安装各种东西">
+<meta property="og:url" content="https://cacaview.github.io/2021/12/04/use%20the%20taskel/index.html">
 <meta property="og:site_name" content="Cacaview&#39;s blog.">
+<meta property="og:description" content="在ubuntu系统中，常用的安装软件命令有apt和pkg。当然，还有一种更为简单的方式。那就是一个叫做tasksel的东西。 tasksel是一个易于使用的软件安装器，他可以快速的安装例如LAMP服务器，邮件服务器 ，DNS服务器之类的软件，有点像宝塔一键安装软件套装一样。 安装tasksel要安装tasksel，只需要一个指令：apt-get install tasksel -y安装Taskse">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-11-06T17:24:02.000Z">
-<meta property="article:modified_time" content="2021-11-06T09:34:59.000Z">
+<meta property="article:published_time" content="2021-12-04T13:20:18.000Z">
+<meta property="article:modified_time" content="2021-12-04T04:54:39.838Z">
 <meta property="article:author" content="cacaview">
+<meta property="article:tag" content="技术支持">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://cacaview.github.io/tags/">
+<link rel="canonical" href="https://cacaview.github.io/2021/12/04/use%20the%20taskel/">
 
 
 <script id="page-configurations">
@@ -38,13 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>文章标签 | Cacaview's blog.
-</title>
+  <title>使用taskel在大便系统中安装各种东西 | Cacaview's blog.</title>
   
 
 
@@ -158,51 +160,113 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://cacaview.github.io/2021/12/04/use%20the%20taskel/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="cacaview">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cacaview's blog.">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          使用taskel在大便系统中安装各种东西
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">文章标签
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2021-12-04 13:20:18 / 修改时间：04:54:39" itemprop="dateCreated datePublished" datetime="2021-12-04T13:20:18Z">2021-12-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/12/04/use%20the%20taskel/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/12/04/use%20the%20taskel/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
   
 
-</div>
+        </div>
+      </header>
 
-</header>
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-      
-      
-      <div class="post-body">
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-              目前共计 4 个标签
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/hexo%E5%8D%9A%E5%AE%A2/" style="font-size: 12px; color: #ccc">hexo博客</a> <a href="/tags/%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81/" style="font-size: 12px; color: #ccc">技术支持</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 30px; color: #111">数学</a> <a href="/tags/%E7%89%A9%E7%90%86/" style="font-size: 12px; color: #ccc">物理</a>
-            </div>
-          </div>
-        
-      </div>
-      
-      
-      
+        <p>在ubuntu系统中，常用的安装软件命令有apt和pkg。当然，还有一种更为简单的方式。那就是一个叫做tasksel的东西。</p>
+<p>tasksel是一个易于使用的软件安装器，他可以快速的安装例如LAMP服务器，邮件服务器 ，DNS服务器之类的软件，有点像宝塔一键安装软件套装一样。</p>
+<h2 id="安装tasksel"><a href="#安装tasksel" class="headerlink" title="安装tasksel"></a>安装tasksel</h2><p>要安装tasksel，只需要一个指令：<br>apt-get install tasksel -y<br>安装Tasksel后，它可以安装一个或多个预定义的软件包组。 用户需要使用几个参数从命令行运行它，当然，它也提供了一个图形用户界面，可以选择要安装的软件。</p>
+<span id="more"></span>
+<h2 id="tasksel的用法"><a href="#tasksel的用法" class="headerlink" title="tasksel的用法"></a>tasksel的用法</h2><p>tasksel的一般语法为：<br>sudo tasksel install task_name<br>sudo tasksel remove task_name<br>sudo tasksel command_line_options<br>如果要用他的图像界面，则只需要：<br>sudo tasksel</p>
+<p>你也许看到了有些选项前面有（*），这代表了它已经安装，你可以使用向上和向下箭头，移动红色高亮部分，按空格键来选择软件，并使用Tab键移动到<ok> 。 然后按回车键安装</ok></p>
+<p>或者，你也可以使用以下命令从命令行中列出所有任务。 注意，在表的第一列， u （卸载）指软件没有安装和i （安装）装置安装的软件。<br>如：<br>sudo tasksel –list-tasks</p>
+<h2 id="更多用法"><a href="#更多用法" class="headerlink" title="更多用法"></a>更多用法</h2><p>使用man帮助页查看更多的用法：<br>man tasksel</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
     </div>
-    
 
     
     
     
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81/" rel="tag"># 技术支持</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/11/29/termux%20use%20the%20hexo1/" rel="prev" title="">
+      <i class="fa fa-chevron-left"></i> 
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
 
 
           </div>
@@ -254,6 +318,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85tasksel"><span class="nav-number">1.</span> <span class="nav-text">安装tasksel</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tasksel%E7%9A%84%E7%94%A8%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">tasksel的用法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E5%A4%9A%E7%94%A8%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">更多用法</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

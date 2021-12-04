@@ -6,7 +6,7 @@
   <link href="https://cacaview.github.io/atom.xml" rel="self"/>
   
   <link href="https://cacaview.github.io/"/>
-  <updated>2021-11-06T15:18:03.000Z</updated>
+  <updated>2021-12-04T04:54:39.838Z</updated>
   <id>https://cacaview.github.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用taskel在大便系统中安装各种东西</title>
+    <link href="https://cacaview.github.io/2021/12/04/use%20the%20taskel/"/>
+    <id>https://cacaview.github.io/2021/12/04/use%20the%20taskel/</id>
+    <published>2021-12-04T13:20:18.000Z</published>
+    <updated>2021-12-04T04:54:39.838Z</updated>
+    
+    <content type="html"><![CDATA[<p>在ubuntu系统中，常用的安装软件命令有apt和pkg。当然，还有一种更为简单的方式。那就是一个叫做tasksel的东西。</p><p>tasksel是一个易于使用的软件安装器，他可以快速的安装例如LAMP服务器，邮件服务器 ，DNS服务器之类的软件，有点像宝塔一键安装软件套装一样。</p><h2 id="安装tasksel"><a href="#安装tasksel" class="headerlink" title="安装tasksel"></a>安装tasksel</h2><p>要安装tasksel，只需要一个指令：<br>apt-get install tasksel -y<br>安装Tasksel后，它可以安装一个或多个预定义的软件包组。 用户需要使用几个参数从命令行运行它，当然，它也提供了一个图形用户界面，可以选择要安装的软件。</p><span id="more"></span><h2 id="tasksel的用法"><a href="#tasksel的用法" class="headerlink" title="tasksel的用法"></a>tasksel的用法</h2><p>tasksel的一般语法为：<br>sudo tasksel install task_name<br>sudo tasksel remove task_name<br>sudo tasksel command_line_options<br>如果要用他的图像界面，则只需要：<br>sudo tasksel</p><p>你也许看到了有些选项前面有（*），这代表了它已经安装，你可以使用向上和向下箭头，移动红色高亮部分，按空格键来选择软件，并使用Tab键移动到<ok> 。 然后按回车键安装</ok></p><p>或者，你也可以使用以下命令从命令行中列出所有任务。 注意，在表的第一列， u （卸载）指软件没有安装和i （安装）装置安装的软件。<br>如：<br>sudo tasksel –list-tasks</p><h2 id="更多用法"><a href="#更多用法" class="headerlink" title="更多用法"></a>更多用法</h2><p>使用man帮助页查看更多的用法：<br>man tasksel</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;在ubuntu系统中，常用的安装软件命令有apt和pkg。当然，还有一种更为简单的方式。那就是一个叫做tasksel的东西。&lt;/p&gt;
+&lt;p&gt;tasksel是一个易于使用的软件安装器，他可以快速的安装例如LAMP服务器，邮件服务器 ，DNS服务器之类的软件，有点像宝塔一键安装软件套装一样。&lt;/p&gt;
+&lt;h2 id=&quot;安装tasksel&quot;&gt;&lt;a href=&quot;#安装tasksel&quot; class=&quot;headerlink&quot; title=&quot;安装tasksel&quot;&gt;&lt;/a&gt;安装tasksel&lt;/h2&gt;&lt;p&gt;要安装tasksel，只需要一个指令：&lt;br&gt;apt-get install tasksel -y&lt;br&gt;安装Tasksel后，它可以安装一个或多个预定义的软件包组。 用户需要使用几个参数从命令行运行它，当然，它也提供了一个图形用户界面，可以选择要安装的软件。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://cacaview.github.io/categories/Linux/"/>
+    
+    
+    <category term="技术支持" scheme="https://cacaview.github.io/tags/%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://cacaview.github.io/2021/11/29/termux%20use%20the%20hexo1/"/>
+    <id>https://cacaview.github.io/2021/11/29/termux%20use%20the%20hexo1/</id>
+    <published>2021-11-28T23:13:40.000Z</published>
+    <updated>2021-12-04T04:54:26.588Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文将会分几个片段来介绍在termux中安装，配置，以及美化hexo博客的过程</p><h1 id="hexo介绍"><a href="#hexo介绍" class="headerlink" title="hexo介绍"></a>hexo介绍</h1><p>Hexo是一款基于Node.js的静态博客框架，依赖少易于安装使用，可以方便的生成静态网页托管在GitHub和Coding上，是搭建博客的首选框架。大家可以进入hexo的官网进行详细查看</p><h1 id="第一步：安装Git"><a href="#第一步：安装Git" class="headerlink" title="第一步：安装Git"></a>第一步：安装Git</h1><p>hexo的网页托管在Git上。对于Linux来说，安装git真的是太简单了，因为最开始的git就是在Linux系统上写出来的。对此，我们这需要一条指令：<br>sudo apt-get install git</p><span id="more"></span><h1 id="第二步：安装nodejs"><a href="#第二步：安装nodejs" class="headerlink" title="第二步：安装nodejs"></a>第二步：安装nodejs</h1><p>Hexo是基于nodeJS编写的，所以需要安装一下nodeJs和里面的npm工具。这十分简单，只需两条指令：<br>sudo apt-get install nodejs<br>sudo apt-get install npm<br>接着输入以下指令验证是否安装成功：<br>node -v<br>npm -v</p><h1 id="第三步，请出我们的hexo"><a href="#第三步，请出我们的hexo" class="headerlink" title="第三步，请出我们的hexo"></a>第三步，请出我们的hexo</h1><p>[如果不出什么差错，我们应该就可以来安装hexo了，建议新建一个文件夹，显得没这么乱。<br>输入这个命令安装hexo：<br>npm install -g hexo-cli<br>使用hexo -v来看看是否安装成功<br>接着初始化一下hexo：<br>hexo init myblog<br>这个myblog起什么名字都可以的，你喜欢就好<br>接着：<br>cd myblog<br>npm install<br>至此，hexo的东西就都弄好了。</p><h1 id="接下来……"><a href="#接下来……" class="headerlink" title="接下来……"></a>接下来……</h1><p>弄好之后，你ls一下，你的目录中会有以下文件：</p><p>node_modules: 依赖包</p><p>public：存放生成的页面</p><p>scaffolds：生成文章的一些模板</p><p>source：用来存放你的文章</p><p>themes：主题</p><p>_config.yml: 博客的配置文件<br>输入这个指令：<br>hexo g<br>hexo server<br>这是打开hexo的服务，在浏览器输入localhost:4000就可以看到你的博客啦<br>按ctrl+c可以把服务关掉。</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;本文将会分几个片段来介绍在termux中安装，配置，以及美化hexo博客的过程&lt;/p&gt;
+&lt;h1 id=&quot;hexo介绍&quot;&gt;&lt;a href=&quot;#hexo介绍&quot; class=&quot;headerlink&quot; title=&quot;hexo介绍&quot;&gt;&lt;/a&gt;hexo介绍&lt;/h1&gt;&lt;p&gt;Hexo是一款基于Node.js的静态博客框架，依赖少易于安装使用，可以方便的生成静态网页托管在GitHub和Coding上，是搭建博客的首选框架。大家可以进入hexo的官网进行详细查看&lt;/p&gt;
+&lt;h1 id=&quot;第一步：安装Git&quot;&gt;&lt;a href=&quot;#第一步：安装Git&quot; class=&quot;headerlink&quot; title=&quot;第一步：安装Git&quot;&gt;&lt;/a&gt;第一步：安装Git&lt;/h1&gt;&lt;p&gt;hexo的网页托管在Git上。对于Linux来说，安装git真的是太简单了，因为最开始的git就是在Linux系统上写出来的。对此，我们这需要一条指令：&lt;br&gt;sudo apt-get install git&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="termux" scheme="https://cacaview.github.io/categories/termux/"/>
+    
+    
+    <category term="hexo博客" scheme="https://cacaview.github.io/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>匀变速运动位移</title>
