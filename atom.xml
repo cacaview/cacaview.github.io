@@ -6,7 +6,7 @@
   <link href="https://cacaview.github.io/atom.xml" rel="self"/>
   
   <link href="https://cacaview.github.io/"/>
-  <updated>2021-12-11T07:13:36.653Z</updated>
+  <updated>2022-02-12T07:53:44.965Z</updated>
   <id>https://cacaview.github.io/</id>
   
   <author>
@@ -17,11 +17,64 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>在termux中折腾hexo（3，配置你的网站）</title>
+    <link href="https://cacaview.github.io/2022/02/12/termux%20use%20the%20hexo3/"/>
+    <id>https://cacaview.github.io/2022/02/12/termux%20use%20the%20hexo3/</id>
+    <published>2022-02-12T15:50:31.000Z</published>
+    <updated>2022-02-12T07:53:44.965Z</updated>
+    
+    <content type="html"><![CDATA[<p>先配置一下你的网站再给别人看吧~</p><h3 id="网站基本配置"><a href="#网站基本配置" class="headerlink" title="网站基本配置"></a>网站基本配置</h3><p>在你的hexo主目录中有一个叫做<code>_config.yml</code>的文件，它是整个网站的配置文件，里面可以看到hexo的大部分配置。你可以在里面修改网站配置，<a href="https://hexo.io/zh-cn/docs/configuration">可前往官网上查看</a><br>这是网站的配置：</p><ul><li><p>title   网站的标题</p></li><li><p>subtitle   网站副标题</p></li><li><p>description    网站描述</p></li></ul><span id="more"></span><ul><li><p>author   您的名字</p></li><li><p>language   网站语言</p></li><li><p>timezone   网站时区，hexo默认使用你手机上的时区</p></li></ul><p>其中，description主要用于SEO，告诉搜索引擎一个关于你的网站简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。自己自行配置。或查看官方文档。</p><p>这是网址的配置：</p><ul><li><p>url   网址，填你的网站域名</p></li><li><p>root   网站的根目录</p></li><li><p>permalink   网站的链接格式</p></li><li><p>permalink_defaults   永久链接中各部分的默认值</p></li></ul><p>对于链接格式，<a href="https://hexo.io/zh-cn/docs/permalinks">可以到官网上查看</a><br>中间的默认即可，接下来我们就来换一个主题吧</p><h3 id="美化你的网站"><a href="#美化你的网站" class="headerlink" title="美化你的网站"></a>美化你的网站</h3><p>如果你觉得默认的landscape主题不好看，那么可以在官网的主题中，选择你喜欢的一个主题进行修改就可以啦。<a href="https://hexo.io/themes/">这里推荐next主题</a><br>我们直接在github链接上下载下来，然后放到theme文件夹下就行了，然后再在刚才说的配置文件中把theme换成那个主题文件夹的名字，它就会自动在theme文件夹中搜索你配置的主题。<br>而后进入next这个文件夹，可以看到里面也有一个配置文件_config.xml，有时候它默认是_config.xml.example，把它复制一份，重命名为_config.xml就可以了。</p><h3 id="菜单栏"><a href="#菜单栏" class="headerlink" title="菜单栏"></a>菜单栏</h3><p>在菜单栏中的about中，你是看不到网页的。但你可以：<br><code>hexo new page about</code><br>它就会在根目录下source文件夹中新建了一个about文件夹，以及index.md，在index.md中写上你想要写的东西，就可以在网站上展示出来了。<br>如果你想新建一个菜单栏选项，你可以：<br><code>hexo new page yourdiy</code><br>然后在主题配置文件的menu菜单栏添加一个 Yourdiy : /yourdiy，注意冒号后面要有空格，以及前面的空格要和menu中默认的保持整齐。然后在languages文件夹中，找到zh-CN.yml，在index中添加yourdiy: ‘中文意思’就可以显示中文了。</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;先配置一下你的网站再给别人看吧~&lt;/p&gt;
+&lt;h3 id=&quot;网站基本配置&quot;&gt;&lt;a href=&quot;#网站基本配置&quot; class=&quot;headerlink&quot; title=&quot;网站基本配置&quot;&gt;&lt;/a&gt;网站基本配置&lt;/h3&gt;&lt;p&gt;在你的hexo主目录中有一个叫做&lt;code&gt;_config.yml&lt;/code&gt;的文件，它是整个网站的配置文件，里面可以看到hexo的大部分配置。你可以在里面修改网站配置，&lt;a href=&quot;https://hexo.io/zh-cn/docs/configuration&quot;&gt;可前往官网上查看&lt;/a&gt;&lt;br&gt;这是网站的配置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;title   网站的标题&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;subtitle   网站副标题&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;description    网站描述&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="termux" scheme="https://cacaview.github.io/categories/termux/"/>
+    
+    
+    <category term="hexo博客" scheme="https://cacaview.github.io/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在termux中折腾hexo（2，让别人看到你的网站）</title>
+    <link href="https://cacaview.github.io/2022/02/12/termux%20use%20the%20hexo2/"/>
+    <id>https://cacaview.github.io/2022/02/12/termux%20use%20the%20hexo2/</id>
+    <published>2022-02-12T15:37:40.000Z</published>
+    <updated>2022-02-12T07:52:42.555Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="注册GitHub账号"><a href="#注册GitHub账号" class="headerlink" title="注册GitHub账号"></a>注册GitHub账号</h1><p>这玩意有手就行，这里直接略去。</p><h1 id="创建GitHub的个人仓库"><a href="#创建GitHub的个人仓库" class="headerlink" title="创建GitHub的个人仓库"></a>创建GitHub的个人仓库</h1><p>有手就行，不过请注意，仓库名必须和你的名字一样，将来要部署到GitHub的时候，才会被识别，也就是（你的名字.github.io）。</p><h3 id="生成ssh-本来不想写的"><a href="#生成ssh-本来不想写的" class="headerlink" title="生成ssh 本来不想写的"></a>生成ssh <del>本来不想写的</del></h3><p>在终端中输入：</p><span id="more"></span><p><code>git config --global user.name &quot;你的名字&quot; git config --global user.email &quot;你的GitHub邮箱&quot;</code><br>再输入一个指令，创建ssh<br>ssh-keygen -t rsa -C “你的邮箱”<br>这时，你<code>ls</code>一下，会有一个.ssh的文件夹把它点开会发现里面有三个文件。<br>打开GitHub的设置，里面会有一个SSH and GPG keys的玩意，新建一个key，然后把id_rsa.pub（在.ssh文件夹里面）<br>然后在终端里面输入这个指令看看是否成功：<br><code>ssh -T git@github.com</code></p><h3 id="把你的网站弄到GitHub上"><a href="#把你的网站弄到GitHub上" class="headerlink" title="把你的网站弄到GitHub上"></a>把你的网站弄到GitHub上</h3><p>打开配置文件_config.yml再最后面写上：<br><code>deploy:</code><br>  <code>type: git</code><br>  <code>repo: https://github.com/你的名字/你的名字.github.io.git</code><br>  <code>branch: master</code><br>这个时候要安装deploy-git ，这样你才能用命令把你的网站部署到GitHub。<br><code>npm install hexo-deployer-git --save</code><br>然后：<br><code>hexo clean</code><br><code>hexo generate</code><br><code>hexo deploy</code><br>然后再访问一下<code>http://你的名字.github.io</code>看看是不是可以让别人看到你的网站了？</p><h3 id="指令介绍"><a href="#指令介绍" class="headerlink" title="指令介绍"></a>指令介绍</h3><p>在这里，hexo clean是清除你之前生成的东西，一般可以不加，hexo generate是生成网页，可以用hexo g来代替，hexo deploy是把网站搞到GitHub上可以用hexo d代替。<br>注意，deploy时系统可能问你用户名和邮箱，照输进去就OK了</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;注册GitHub账号&quot;&gt;&lt;a href=&quot;#注册GitHub账号&quot; class=&quot;headerlink&quot; title=&quot;注册GitHub账号&quot;&gt;&lt;/a&gt;注册GitHub账号&lt;/h1&gt;&lt;p&gt;这玩意有手就行，这里直接略去。&lt;/p&gt;
+&lt;h1 id=&quot;创建GitHub的个人仓库&quot;&gt;&lt;a href=&quot;#创建GitHub的个人仓库&quot; class=&quot;headerlink&quot; title=&quot;创建GitHub的个人仓库&quot;&gt;&lt;/a&gt;创建GitHub的个人仓库&lt;/h1&gt;&lt;p&gt;有手就行，不过请注意，仓库名必须和你的名字一样，将来要部署到GitHub的时候，才会被识别，也就是（你的名字.github.io）。&lt;/p&gt;
+&lt;h3 id=&quot;生成ssh-本来不想写的&quot;&gt;&lt;a href=&quot;#生成ssh-本来不想写的&quot; class=&quot;headerlink&quot; title=&quot;生成ssh 本来不想写的&quot;&gt;&lt;/a&gt;生成ssh &lt;del&gt;本来不想写的&lt;/del&gt;&lt;/h3&gt;&lt;p&gt;在终端中输入：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="termux" scheme="https://cacaview.github.io/categories/termux/"/>
+    
+    
+    <category term="hexo博客" scheme="https://cacaview.github.io/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>技术教程出售</title>
     <link href="https://cacaview.github.io/2021/12/11/ad/"/>
     <id>https://cacaview.github.io/2021/12/11/ad/</id>
     <published>2021-12-11T15:13:34.000Z</published>
-    <updated>2021-12-11T07:13:36.653Z</updated>
+    <updated>2021-12-11T07:13:36.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="特大消息，超全py教程-学习环境-Java安卓开发例子和模板，超低价亏本出！"><a href="#特大消息，超全py教程-学习环境-Java安卓开发例子和模板，超低价亏本出！" class="headerlink" title="特大消息，超全py教程+学习环境+Java安卓开发例子和模板，超低价亏本出！"></a>特大消息，超全py教程+学习环境+Java安卓开发例子和模板，超低价亏本出！</h1><p>价目表：</p><p>py教程<strong>5r</strong>出    Java开发例子<strong>10r</strong>便宜出</p><p>Java开发例子+py教程只需<strong>14.9r</strong>！</p><p>py教程+学习环境<strong>12r</strong>亏本出</p><p>包场只需<del>29.9</del>    <strong>19.9</strong>！！！（另送额外精品实用小资源！）</p><h2 id="如想购买可以点此联系"><a href="#如想购买可以点此联系" class="headerlink" title="如想购买可以点此联系"></a>如想购买可以<a href="https://cacaview.github.io/about/">点此联系</a></h2><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     
@@ -45,7 +98,7 @@
     <link href="https://cacaview.github.io/2021/12/04/Google%20account%20/"/>
     <id>https://cacaview.github.io/2021/12/04/Google%20account%20/</id>
     <published>2021-12-04T13:57:40.000Z</published>
-    <updated>2021-12-11T07:12:43.293Z</updated>
+    <updated>2021-12-11T07:12:43.000Z</updated>
     
     <content type="html"><![CDATA[<p>出售一些谷歌账号，想要购买的可以联系QQ 1475429618，批量购买不接受。</p><h1 id="价格只需18r"><a href="#价格只需18r" class="headerlink" title="价格只需18r!"></a>价格只需18r!</h1><p>（价格视注册难度而定）</p><h2 id="账号特色："><a href="#账号特色：" class="headerlink" title="账号特色："></a>账号特色：</h2><p>1，可永久使用，谷歌帐号是使用谷歌应用的必备帐号,购买后，该帐号即可永久使用。</p><span id="more"></span><p>2，可绑定游戏数据，登录谷歌帐号,游戏数据保存在谷歌，不用担心存档消失。</p><p>3，谷歌认证，正版帐号,谷歌认证游戏,用魔法登录后可以随心畅玩。</p><p>4，卖一删一，绝不二次出售</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>1.谷歌有严格的审查机制,不要频繁更换IP、设备登录帐号,容易出现帐号异常，被封不负责。</p><p>2.购买后请尽快修改密码和绑定邮箱,被盗不负责。����</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     
@@ -68,7 +121,7 @@
     <link href="https://cacaview.github.io/2021/12/04/use%20the%20taskel/"/>
     <id>https://cacaview.github.io/2021/12/04/use%20the%20taskel/</id>
     <published>2021-12-04T13:20:18.000Z</published>
-    <updated>2021-12-04T04:54:39.838Z</updated>
+    <updated>2021-12-04T04:54:39.000Z</updated>
     
     <content type="html"><![CDATA[<p>在ubuntu系统中，常用的安装软件命令有apt和pkg。当然，还有一种更为简单的方式。那就是一个叫做tasksel的东西。</p><p>tasksel是一个易于使用的软件安装器，他可以快速的安装例如LAMP服务器，邮件服务器 ，DNS服务器之类的软件，有点像宝塔一键安装软件套装一样。</p><h2 id="安装tasksel"><a href="#安装tasksel" class="headerlink" title="安装tasksel"></a>安装tasksel</h2><p>要安装tasksel，只需要一个指令：<br>apt-get install tasksel -y<br>安装Tasksel后，它可以安装一个或多个预定义的软件包组。 用户需要使用几个参数从命令行运行它，当然，它也提供了一个图形用户界面，可以选择要安装的软件。</p><span id="more"></span><h2 id="tasksel的用法"><a href="#tasksel的用法" class="headerlink" title="tasksel的用法"></a>tasksel的用法</h2><p>tasksel的一般语法为：<br>sudo tasksel install task_name<br>sudo tasksel remove task_name<br>sudo tasksel command_line_options<br>如果要用他的图像界面，则只需要：<br>sudo tasksel</p><p>你也许看到了有些选项前面有（*），这代表了它已经安装，你可以使用向上和向下箭头，移动红色高亮部分，按空格键来选择软件，并使用Tab键移动到<ok> 。 然后按回车键安装</ok></p><p>或者，你也可以使用以下命令从命令行中列出所有任务。 注意，在表的第一列， u （卸载）指软件没有安装和i （安装）装置安装的软件。<br>如：<br>sudo tasksel –list-tasks</p><h2 id="更多用法"><a href="#更多用法" class="headerlink" title="更多用法"></a>更多用法</h2><p>使用man帮助页查看更多的用法：<br>man tasksel</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     
@@ -91,7 +144,7 @@
     <link href="https://cacaview.github.io/2021/11/29/termux%20use%20the%20hexo1/"/>
     <id>https://cacaview.github.io/2021/11/29/termux%20use%20the%20hexo1/</id>
     <published>2021-11-28T23:13:40.000Z</published>
-    <updated>2021-12-04T04:57:00.738Z</updated>
+    <updated>2021-12-04T04:57:00.000Z</updated>
     
     <content type="html"><![CDATA[<p>本文将会分几个片段来介绍在termux中安装，配置，以及美化hexo博客的过程</p><h1 id="hexo介绍"><a href="#hexo介绍" class="headerlink" title="hexo介绍"></a>hexo介绍</h1><p>Hexo是一款基于Node.js的静态博客框架，依赖少易于安装使用，可以方便的生成静态网页托管在GitHub和Coding上，是搭建博客的首选框架。大家可以进入hexo的官网进行详细查看</p><h1 id="第一步：安装Git"><a href="#第一步：安装Git" class="headerlink" title="第一步：安装Git"></a>第一步：安装Git</h1><p>hexo的网页托管在Git上。对于Linux来说，安装git真的是太简单了，因为最开始的git就是在Linux系统上写出来的。对此，我们这需要一条指令：<br>sudo apt-get install git</p><span id="more"></span><h1 id="第二步：安装nodejs"><a href="#第二步：安装nodejs" class="headerlink" title="第二步：安装nodejs"></a>第二步：安装nodejs</h1><p>Hexo是基于nodeJS编写的，所以需要安装一下nodeJs和里面的npm工具。这十分简单，只需两条指令：<br>sudo apt-get install nodejs<br>sudo apt-get install npm<br>接着输入以下指令验证是否安装成功：<br>node -v<br>npm -v</p><h1 id="第三步，请出我们的hexo"><a href="#第三步，请出我们的hexo" class="headerlink" title="第三步，请出我们的hexo"></a>第三步，请出我们的hexo</h1><p>[如果不出什么差错，我们应该就可以来安装hexo了，建议新建一个文件夹，显得没这么乱。<br>输入这个命令安装hexo：<br>npm install -g hexo-cli<br>使用hexo -v来看看是否安装成功<br>接着初始化一下hexo：<br>hexo init myblog<br>这个myblog起什么名字都可以的，你喜欢就好<br>接着：<br>cd myblog<br>npm install<br>至此，hexo的东西就都弄好了。</p><h1 id="接下来……"><a href="#接下来……" class="headerlink" title="接下来……"></a>接下来……</h1><p>弄好之后，你ls一下，你的目录中会有以下文件：</p><p>node_modules: 依赖包</p><p>public：存放生成的页面</p><p>scaffolds：生成文章的一些模板</p><p>source：用来存放你的文章</p><p>themes：主题</p><p>_config.yml: 博客的配置文件<br>输入这个指令：<br>hexo g<br>hexo server<br>这是打开hexo的服务，在浏览器输入localhost:4000就可以看到你的博客啦<br>按ctrl+c可以把服务关掉。</p><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
     

@@ -20,20 +20,20 @@
     var CONFIG = {"hostname":"cacaview.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="特大消息，超全py教程+学习环境+Java安卓开发例子和模板，超低价亏本出！价目表： py教程5r出    Java开发例子10r便宜出 Java开发例子+py教程只需14.9r！ py教程+学习环境12r亏本出 包场只需29.9    19.9！！！（另送额外精品实用小资源！） 如想购买可以点此联系">
+  <meta name="description" content="注册GitHub账号这玩意有手就行，这里直接略去。 创建GitHub的个人仓库有手就行，不过请注意，仓库名必须和你的名字一样，将来要部署到GitHub的时候，才会被识别，也就是（你的名字.github.io）。 生成ssh 本来不想写的在终端中输入：">
 <meta property="og:type" content="article">
-<meta property="og:title" content="技术教程出售">
-<meta property="og:url" content="https://cacaview.github.io/2021/12/11/ad/index.html">
+<meta property="og:title" content="在termux中折腾hexo（2，让别人看到你的网站）">
+<meta property="og:url" content="https://cacaview.github.io/2022/02/12/termux%20use%20the%20hexo2/index.html">
 <meta property="og:site_name" content="Cacaview&#39;s blog.">
-<meta property="og:description" content="特大消息，超全py教程+学习环境+Java安卓开发例子和模板，超低价亏本出！价目表： py教程5r出    Java开发例子10r便宜出 Java开发例子+py教程只需14.9r！ py教程+学习环境12r亏本出 包场只需29.9    19.9！！！（另送额外精品实用小资源！） 如想购买可以点此联系">
+<meta property="og:description" content="注册GitHub账号这玩意有手就行，这里直接略去。 创建GitHub的个人仓库有手就行，不过请注意，仓库名必须和你的名字一样，将来要部署到GitHub的时候，才会被识别，也就是（你的名字.github.io）。 生成ssh 本来不想写的在终端中输入：">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-12-11T15:13:34.000Z">
-<meta property="article:modified_time" content="2021-12-11T07:13:36.000Z">
+<meta property="article:published_time" content="2022-02-12T15:37:40.000Z">
+<meta property="article:modified_time" content="2022-02-12T07:52:42.555Z">
 <meta property="article:author" content="cacaview">
-<meta property="article:tag" content="技术教程">
+<meta property="article:tag" content="hexo博客">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://cacaview.github.io/2021/12/11/ad/">
+<link rel="canonical" href="https://cacaview.github.io/2022/02/12/termux%20use%20the%20hexo2/">
 
 
 <script id="page-configurations">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>技术教程出售 | Cacaview's blog.</title>
+  <title>在termux中折腾hexo（2，让别人看到你的网站） | Cacaview's blog.</title>
   
 
 
@@ -173,7 +173,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://cacaview.github.io/2021/12/11/ad/">
+    <link itemprop="mainEntityOfPage" href="https://cacaview.github.io/2022/02/12/termux%20use%20the%20hexo2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -186,7 +186,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          技术教程出售
+          在termux中折腾hexo（2，让别人看到你的网站）
         </h1>
 
         <div class="post-meta">
@@ -197,7 +197,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-12-11 15:13:34 / 修改时间：07:13:36" itemprop="dateCreated datePublished" datetime="2021-12-11T15:13:34Z">2021-12-11</time>
+              <time title="创建时间：2022-02-12 15:37:40 / 修改时间：07:52:42" itemprop="dateCreated datePublished" datetime="2022-02-12T15:37:40Z">2022-02-12</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -205,7 +205,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%B0%8F%E5%8D%96%E9%83%A8/" itemprop="url" rel="index"><span itemprop="name">小卖部</span></a>
+                  <a href="/categories/termux/" itemprop="url" rel="index"><span itemprop="name">termux</span></a>
                 </span>
             </span>
 
@@ -218,8 +218,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2021/12/11/ad/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/12/11/ad/" itemprop="commentCount"></span>
+    <a title="valine" href="/2022/02/12/termux%20use%20the%20hexo2/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/02/12/termux%20use%20the%20hexo2/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -234,12 +234,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="特大消息，超全py教程-学习环境-Java安卓开发例子和模板，超低价亏本出！"><a href="#特大消息，超全py教程-学习环境-Java安卓开发例子和模板，超低价亏本出！" class="headerlink" title="特大消息，超全py教程+学习环境+Java安卓开发例子和模板，超低价亏本出！"></a>特大消息，超全py教程+学习环境+Java安卓开发例子和模板，超低价亏本出！</h1><p>价目表：</p>
-<p>py教程<strong>5r</strong>出    Java开发例子<strong>10r</strong>便宜出</p>
-<p>Java开发例子+py教程只需<strong>14.9r</strong>！</p>
-<p>py教程+学习环境<strong>12r</strong>亏本出</p>
-<p>包场只需<del>29.9</del>    <strong>19.9</strong>！！！（另送额外精品实用小资源！）</p>
-<h2 id="如想购买可以点此联系"><a href="#如想购买可以点此联系" class="headerlink" title="如想购买可以点此联系"></a>如想购买可以<a href="https://cacaview.github.io/about/">点此联系</a></h2><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+        <h1 id="注册GitHub账号"><a href="#注册GitHub账号" class="headerlink" title="注册GitHub账号"></a>注册GitHub账号</h1><p>这玩意有手就行，这里直接略去。</p>
+<h1 id="创建GitHub的个人仓库"><a href="#创建GitHub的个人仓库" class="headerlink" title="创建GitHub的个人仓库"></a>创建GitHub的个人仓库</h1><p>有手就行，不过请注意，仓库名必须和你的名字一样，将来要部署到GitHub的时候，才会被识别，也就是（你的名字.github.io）。</p>
+<h3 id="生成ssh-本来不想写的"><a href="#生成ssh-本来不想写的" class="headerlink" title="生成ssh 本来不想写的"></a>生成ssh <del>本来不想写的</del></h3><p>在终端中输入：</p>
+<span id="more"></span>
+<p><code>git config --global user.name &quot;你的名字&quot; git config --global user.email &quot;你的GitHub邮箱&quot;</code><br>再输入一个指令，创建ssh<br>ssh-keygen -t rsa -C “你的邮箱”<br>这时，你<code>ls</code>一下，会有一个.ssh的文件夹把它点开会发现里面有三个文件。<br>打开GitHub的设置，里面会有一个SSH and GPG keys的玩意，新建一个key，然后把id_rsa.pub（在.ssh文件夹里面）<br>然后在终端里面输入这个指令看看是否成功：<br><code>ssh -T git@github.com</code></p>
+<h3 id="把你的网站弄到GitHub上"><a href="#把你的网站弄到GitHub上" class="headerlink" title="把你的网站弄到GitHub上"></a>把你的网站弄到GitHub上</h3><p>打开配置文件_config.yml再最后面写上：<br><code>deploy:</code><br>  <code>type: git</code><br>  <code>repo: https://github.com/你的名字/你的名字.github.io.git</code><br>  <code>branch: master</code><br>这个时候要安装deploy-git ，这样你才能用命令把你的网站部署到GitHub。<br><code>npm install hexo-deployer-git --save</code><br>然后：<br><code>hexo clean</code><br><code>hexo generate</code><br><code>hexo deploy</code><br>然后再访问一下<code>http://你的名字.github.io</code>看看是不是可以让别人看到你的网站了？</p>
+<h3 id="指令介绍"><a href="#指令介绍" class="headerlink" title="指令介绍"></a>指令介绍</h3><p>在这里，hexo clean是清除你之前生成的东西，一般可以不加，hexo generate是生成网页，可以用hexo g来代替，hexo deploy是把网站搞到GitHub上可以用hexo d代替。<br>注意，deploy时系统可能问你用户名和邮箱，照输进去就OK了</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
     </div>
 
     
@@ -248,7 +250,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/" rel="tag"># 技术教程</a>
+              <a href="/tags/hexo%E5%8D%9A%E5%AE%A2/" rel="tag"># hexo博客</a>
           </div>
 
         
@@ -257,12 +259,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/12/04/Google%20account%20/" rel="prev" title="谷歌账号出售">
-      <i class="fa fa-chevron-left"></i> 谷歌账号出售
+    <a href="/2021/12/11/ad/" rel="prev" title="技术教程出售">
+      <i class="fa fa-chevron-left"></i> 技术教程出售
     </a></div>
       <div class="post-nav-item">
-    <a href="/2022/02/12/termux%20use%20the%20hexo2/" rel="next" title="在termux中折腾hexo（2，让别人看到你的网站）">
-      在termux中折腾hexo（2，让别人看到你的网站） <i class="fa fa-chevron-right"></i>
+    <a href="/2022/02/12/termux%20use%20the%20hexo3/" rel="next" title="在termux中折腾hexo（3，配置你的网站）">
+      在termux中折腾hexo（3，配置你的网站） <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -323,7 +325,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%89%B9%E5%A4%A7%E6%B6%88%E6%81%AF%EF%BC%8C%E8%B6%85%E5%85%A8py%E6%95%99%E7%A8%8B-%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83-Java%E5%AE%89%E5%8D%93%E5%BC%80%E5%8F%91%E4%BE%8B%E5%AD%90%E5%92%8C%E6%A8%A1%E6%9D%BF%EF%BC%8C%E8%B6%85%E4%BD%8E%E4%BB%B7%E4%BA%8F%E6%9C%AC%E5%87%BA%EF%BC%81"><span class="nav-number">1.</span> <span class="nav-text">特大消息，超全py教程+学习环境+Java安卓开发例子和模板，超低价亏本出！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A6%82%E6%83%B3%E8%B4%AD%E4%B9%B0%E5%8F%AF%E4%BB%A5%E7%82%B9%E6%AD%A4%E8%81%94%E7%B3%BB"><span class="nav-number">1.1.</span> <span class="nav-text">如想购买可以点此联系</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B3%A8%E5%86%8CGitHub%E8%B4%A6%E5%8F%B7"><span class="nav-number">1.</span> <span class="nav-text">注册GitHub账号</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%9B%E5%BB%BAGitHub%E7%9A%84%E4%B8%AA%E4%BA%BA%E4%BB%93%E5%BA%93"><span class="nav-number">2.</span> <span class="nav-text">创建GitHub的个人仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90ssh-%E6%9C%AC%E6%9D%A5%E4%B8%8D%E6%83%B3%E5%86%99%E7%9A%84"><span class="nav-number">2.0.1.</span> <span class="nav-text">生成ssh 本来不想写的</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%8A%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%E5%BC%84%E5%88%B0GitHub%E4%B8%8A"><span class="nav-number">2.0.2.</span> <span class="nav-text">把你的网站弄到GitHub上</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D"><span class="nav-number">2.0.3.</span> <span class="nav-text">指令介绍</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
